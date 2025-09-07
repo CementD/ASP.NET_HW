@@ -1,0 +1,22 @@
+﻿@page
+@model hw0709.Pages.NewsletterModel
+@{
+}
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <button type="submit">Subscribe</button>
+</form>
+
+<div asp-validation-summary="ModelOnly"></div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,32 @@
+﻿@page
+@model hw0709.Pages.ContactModel
+@{
+}
+
+<form method="post">
+    <div>
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" />
+        <span asp-validation-for="FullName"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label asp-for="Message"></label>
+        <textarea asp-for="Message"></textarea>
+        <span asp-validation-for="Message"></span>
+    </div>
+
+    <button type="submit">Send</button>
+</form>
+
+<div asp-validation-summary="ModelOnly"></div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

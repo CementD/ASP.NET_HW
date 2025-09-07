@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\hw0709\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\successregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\successregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\successsubscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\successsubscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\newsletter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\newsletter.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\newsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\newsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\thankyou.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\thankyou.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|c:\\users\\user\\source\\repos\\hw0709\\hw0709\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9998599-501A-4A59-B50E-EEAAA238D4B4}|hw0709\\hw0709.csproj|solutionrelative:hw0709\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "hw0709\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T17:06:02.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Newsletter.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Newsletter.cshtml.cs",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\Newsletter.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Newsletter.cshtml.cs",
+              "RelativeToolTip": "hw0709\\Pages\\Newsletter.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T17:01:42.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Newsletter.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Newsletter.cshtml",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\Newsletter.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Newsletter.cshtml",
+              "RelativeToolTip": "hw0709\\Pages\\Newsletter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T17:01:37.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuccessSubscription.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\SuccessSubscription.cshtml",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\SuccessSubscription.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\SuccessSubscription.cshtml",
+              "RelativeToolTip": "hw0709\\Pages\\SuccessSubscription.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T17:04:01.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\Contact.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Contact.cshtml.cs",
+              "RelativeToolTip": "hw0709\\Pages\\Contact.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:53:19.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuccessRegistration.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\SuccessRegistration.cshtml",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\SuccessRegistration.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\SuccessRegistration.cshtml",
+              "RelativeToolTip": "hw0709\\Pages\\SuccessRegistration.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T16:46:34.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Register.cshtml.cs",
+              "RelativeToolTip": "hw0709\\Pages\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:29:22.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThankYou.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\ThankYou.cshtml",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\ThankYou.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\ThankYou.cshtml",
+              "RelativeToolTip": "hw0709\\Pages\\ThankYou.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T16:59:10.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "hw0709\\Pages\\Contact.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T16:53:15.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Register.cshtml",
+              "RelativeDocumentMoniker": "hw0709\\Pages\\Register.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\hw0709\\hw0709\\Pages\\Register.cshtml",
+              "RelativeToolTip": "hw0709\\Pages\\Register.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T16:28:31.876Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
