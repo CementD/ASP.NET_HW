@@ -1,0 +1,15 @@
+﻿@page
+@model dynamic
+@{
+	var messages = TempData["Messages"] as List<(string Type, string Text)> ?? new();
+}
+
+@if (TempData["Messages"] != null)
+{
+    <div class="container mt-3">
+        @foreach (var m in messages)
+        {
+            <div class="alert">@m.Type: @m.Text</div>
+        }
+    </div>
+}

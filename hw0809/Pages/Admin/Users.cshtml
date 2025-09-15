@@ -1,0 +1,13 @@
+﻿@page
+@model hw0809.Pages.Admin.UsersModel
+@{
+	var users = new List<string> { "John", "Jessica", "Leon" };
+}
+
+<h2>User Management</h2>
+<ul>
+	@foreach (var user in users)
+	{
+		<li>@user</li>
+	}
+</ul>

@@ -1,0 +1,44 @@
+﻿@page
+@model dynamic
+@{
+    var users = new[]
+    {
+        new { Name = "John", Email = "john@test.com", AvatarUrl = "/img/john.png" },
+        new { Name = "Leon", Email = "leon@test.com", AvatarUrl = "/img/leon.png" }
+    };
+}
+
+<h2>User List</h2>
+<div>
+    @foreach (var user in users)
+    {
+		@await Html.PartialAsync("_UserCard", user)
+	}
+</div>
+
+@section Styles {
+    <style>
+        div {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+        .card img {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .card-body {
+            padding: 10px;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+		alert('User page loaded');
+    </script>
+}

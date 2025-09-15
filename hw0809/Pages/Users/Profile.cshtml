@@ -1,0 +1,17 @@
+﻿@page
+@model dynamic
+@{
+	var currentUser = new { Name = "Admin", Email = "admin@test.com", AvatarUrl = "/img/admin.png" };
+}
+
+<h2>User Profile</h2>
+
+@section Sidebar {
+	@await Html.PartialAsync("_UserCard", currentUser)
+}
+
+@section Scripts {
+	<script>
+		alert('Profile page loaded');
+	</script>
+}

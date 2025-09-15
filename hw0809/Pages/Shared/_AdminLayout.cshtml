@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin</title>
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <div class="container">
+        <aside style="width:200px; background:#333; color:white; min-height:100vh;">
+			@await Html.PartialAsync("_AdminMenu")
+        </aside>
+        <main style ="flex: 1; padding: 20px;">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>

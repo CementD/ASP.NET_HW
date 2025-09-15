@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\shared\\_notification.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\shared\\_notification.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\shared\\_adminmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\shared\\_adminmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\shared\\_usercard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\shared\\_usercard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw0809\\pages\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2E4D85F-6DD3-48D8-ACC3-205BC88561C0}|hw0809.csproj|solutionrelative:pages\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T18:41:59.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Notification.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_Notification.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Notification.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_Notification.cshtml.cs",
+              "RelativeToolTip": "Pages\\Shared\\_Notification.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T11:29:56.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Notification.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Notification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T11:28:47.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T11:12:24.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Users\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Users\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Users\\Profile.cshtml",
+              "RelativeToolTip": "Pages\\Users\\Profile.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T11:10:01.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Users\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T11:06:07.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_UserCard.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_UserCard.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_UserCard.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_UserCard.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_UserCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T11:03:12.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T10:35:48.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Admin\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Admin\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T10:23:26.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Admin\\Users.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T10:22:47.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T10:21:10.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdminMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_AdminMenu.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_AdminMenu.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw0809\\Pages\\Shared\\_AdminMenu.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_AdminMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-12T10:17:10.953Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
