@@ -1,0 +1,38 @@
+﻿@page
+@model hw1509.Pages.Students.IndexModel
+@{
+    ViewData["Title"] = "Students";
+}
+
+<h1 class="text-3xl font-bold mb-6">Students</h1>
+
+<p class="mb-4">
+    <a asp-page="Create" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded font-medium">Add New Book</a>
+</p>
+
+<table class="min-w-full bg-white shadow-md rounded overflow-hidden">
+    <thead class="bg-gray-200">
+        <tr>
+            <th class="text-left px-4 py-2">First Name</th>
+            <th class="text-left px-4 py-2">Last Name</th>
+            <th class="text-left px-4 py-2">Age</th>
+            <th class="text-left px-4 py-2">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model.Students)
+        {
+            <tr class="border-t">
+                <td class="px-4 py-2">@student.FirstName</td>
+                <td class="px-4 py-2">@student.LastName</td>
+                <td class="px-4 py-2">@student.Age</td>
+                <td class="px-4 py-2 space-x-2">
+                    <a asp-page="Edit" asp-route-id="@student.Id"
+                       class="bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-1 rounded">Edit</a>
+                    <a asp-page="Delete" asp-route-id="@student.Id"
+                       class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

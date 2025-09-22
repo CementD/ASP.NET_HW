@@ -1,0 +1,61 @@
+﻿@page
+@model Task3.Pages.Restaurants.IndexModel
+@{
+	ViewData["Title"] = "Restaurants";
+}
+
+<h1 class="text-3xl font-bold mb-6">Restaurants</h1>
+
+<form method="get" class="mb-4 flex gap-2">
+    <input type="text" name="SearchName" value="@Model.SearchName"
+           placeholder="Search by name"
+           class="border p-2 rounded w-64" />
+    <button type="submit" class="bg-blue-600 px-4 py-2 rounded">Search</button>
+</form>
+
+<a asp-page="./Index" asp-route-SortOrder="price_desc" class="text-blue-500">Sort Dishes by Price ↓</a> |
+<a asp-page="./Index" asp-route-SortOrder="" class="text-blue-500">Sort Dishes by Price ↑</a>
+
+<table class="w-full border mt-4">
+    <thead>
+        <tr class="bg-gray-200">
+            <th class="p-2 text-left">Name</th>
+            <th class="p-2 text-left">Address</th>
+            <th class="p-2 text-left">Dishes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.Restaurants)
+        {
+            <tr class="border-t">
+                <td class="p-2">@r.Name</td>
+                <td class="p-2">@r.Address</td>
+                <td class="p-2">
+                    <ul>
+                        @foreach (var d in r.Dishes)
+                        {
+                            <li>
+                                @d.Title - $@d.Price
+                                (@string.Join(", ", d.DishCategories.Select(dc => dc.Category.Name)))
+                            </li>
+                        }
+                    </ul>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.TotalPages > 1)
+{
+    <div class="mt-4 flex gap-2">
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <a asp-page="./Index"
+               asp-route-PageIndex="@i"
+               asp-route-SearchName="@Model.SearchName"
+               asp-route-SortOrder="@Model.SortOrder"
+               class="px-3 py-1 border rounded @(i == Model.PageIndex ? "bg-blue-600 text-white" : "")">@i</a>
+        }
+    </div>
+}

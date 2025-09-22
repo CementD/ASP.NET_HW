@@ -1,0 +1,32 @@
+﻿@page "{id:int}"
+@model hw1509.Pages.Products.EditModel
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h1 class="text-2xl font-bold mb-6">Edit Product</h1>
+
+<form method="post" class="space-y-4">
+    <input type="hidden" asp-for="Product.Id" />
+    <div>
+        <label asp-for="Product.Name" class="block font-semibold"></label>
+        <input asp-for="Product.Name" class="border p-2 w-full rounded" />
+        <span asp-validation-for="Product.Name" class="text-red-500"></span>
+    </div>
+    <div>
+        <label asp-for="Product.Price" class="block font-semibold"></label>
+        <input asp-for="Product.Price" class="border p-2 w-full rounded" />
+        <span asp-validation-for="Product.Price" class="text-red-500"></span>
+    </div>
+    <div>
+        <label asp-for="Product.Quantity" class="block font-semibold"></label>
+        <input asp-for="Product.Quantity" class="border p-2 w-full rounded" />
+        <span asp-validation-for="Product.Quantity" class="text-red-500"></span>
+    </div>
+    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Save</button>
+    <a asp-page="Index" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

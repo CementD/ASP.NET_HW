@@ -1,0 +1,41 @@
+﻿@page
+@model hw1509.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1 class="text-3xl font-bold mb-6">Products</h1>
+
+<p>
+    <a asp-page="Create"
+       class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
+        Add New Product
+    </a>
+</p>
+
+<table class="min-w-full bg-white border rounded shadow mt-4">
+    <thead class="bg-gray-100">
+        <tr>
+            <th class="text-left px-4 py-2">Name</th>
+            <th class="text-left px-4 py-2">Price</th>
+            <th class="text-left px-4 py-2">Quantity</th>
+            <th class="text-left px-4 py-2">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr class="border-t">
+                <td class="px-4 py-2">@product.Name</td>
+                <td class="px-4 py-2">$@product.Price</td>
+                <td class="px-4 py-2">@product.Quantity</td>
+                <td class="px-4 py-2 space-x-2">
+                    <a asp-page="Edit" asp-route-id="@product.Id"
+                       class="bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-1 rounded">Edit</a>
+                    <a asp-page="Delete" asp-route-id="@product.Id"
+                       class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

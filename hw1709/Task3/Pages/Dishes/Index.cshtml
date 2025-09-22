@@ -1,0 +1,43 @@
+﻿@page
+@model Task3.Pages.Dishes.IndexModel
+@{
+    ViewData["Title"] = "Dishes";
+}
+
+<h1 class="text-3xl font-bold mb-6">Dishes</h1>
+
+<form method="get" class="mb-4 flex gap-2">
+    <select name="CategoryId" class="border p-2 rounded">
+        <option value="">All Categories</option>
+        @foreach (var c in Model.Categories)
+        {
+            <option value="@c.Id" selected="@(c.Id == Model.CategoryId)">
+                @c.Name
+            </option>
+        }
+    </select>
+    <button type="submit" class="bg-blue-600 px-4 py-2 rounded">Filter</button>
+</form>
+
+<table class="w-full border mt-4">
+    <thead>
+        <tr class="bg-gray-200">
+            <th class="p-2 text-left">Title</th>
+            <th class="p-2 text-left">Price</th>
+            <th class="p-2 text-left">Restaurant</th>
+            <th class="p-2 text-left">Categories</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model.Dishes)
+        {
+            <tr class="border-t">
+                <td class="p-2">@d.Title</td>
+                <td class="p-2">$@d.Price</td>
+                <td class="p-2">@d.Restaurant.Name</td>
+                <td class="p-2">@string.Join(", ", d.DishCategories.Select(dc => dc.Category.Name))</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

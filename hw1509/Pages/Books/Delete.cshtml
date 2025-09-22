@@ -1,0 +1,18 @@
+﻿@page "{id:int}"
+@model hw1509.Pages.Books.DeleteModel
+@{
+    ViewData["Title"] = "Delete Book";
+}
+
+<h1 class="text-3xl font-bold mb-6 text-red-600 text-center">Delete Book</h1>
+
+<div class="bg-white p-6 rounded shadow-md max-w-lg mx-auto text-center">
+    <p class="mb-4 text-gray-700">
+        Are you sure you want to delete <strong class="text-gray-900">@Model.Book.Title</strong>?
+    </p>
+
+    <form method="post" class="flex justify-center space-x-3">
+        <button type="submit" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded font-medium">Delete</button>
+        <a asp-page="Index" class="bg-gray-300 hover:bg-gray-400 text-gray-800 px-4 py-2 rounded font-medium">Cancel</a>
+    </form>
+</div>

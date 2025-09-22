@@ -1,0 +1,31 @@
+﻿@page
+@model hw1509.Pages.Students.CreateModel
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<h1 class="text-2xl font-bold mb-6">Add Student</h1>
+
+<form method="post" class="space-y-4">
+    <div>
+        <label asp-for="Student.FirstName" class="block font-semibold"></label>
+        <input asp-for="Student.FirstName" class="border p-2 w-full rounded" />
+        <span asp-validation-for="Student.FirstName" class="text-red-500"></span>
+    </div>
+    <div>
+        <label asp-for="Student.LastName" class="block font-semibold"></label>
+        <input asp-for="Student.LastName" class="border p-2 w-full rounded" />
+        <span asp-validation-for="Student.LastName" class="text-red-500"></span>
+    </div>
+    <div>
+        <label asp-for="Student.Age" class="block font-semibold"></label>
+        <input asp-for="Student.Age" class="border p-2 w-full rounded" />
+        <span asp-validation-for="Student.Age" class="text-red-500"></span>
+    </div>
+    <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">Save</button>
+    <a asp-page="Index" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

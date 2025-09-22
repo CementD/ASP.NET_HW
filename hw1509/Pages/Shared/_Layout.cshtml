@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - hw1509</title>
+    <link href="~/css/styles.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a class="text-2xl font-bold text-gray-900" asp-area="" asp-page="/Index">hw1509</a>
+
+            <nav>
+                <ul class="flex space-x-6 text-gray-700 font-medium">
+                    <li><a class="hover:text-blue-600" asp-area="" asp-page="/Index">Home</a></li>
+                    <li><a class="hover:text-blue-600" asp-area="" asp-page="/Privacy">Privacy</a></li>
+                    <li><a class="hover:text-blue-600" asp-area="" asp-page="/Books/Index">Books</a></li>
+                    <li><a class="hover:text-blue-600" asp-area="" asp-page="/Students/Index">Students</a></li>
+					<li><a class="hover:text-blue-600" asp-area="" asp-page="/Products/Index">Products</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-grow container mx-auto px-4 py-6">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t mt-8 py-4">
+        <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
+            &copy; 2025 - hw1509 - <a class="text-blue-600 hover:underline" asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
