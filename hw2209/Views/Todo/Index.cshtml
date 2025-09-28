@@ -1,0 +1,24 @@
+﻿@model List<ToDoItem>
+@{
+	ViewData["Title"] = "To-Do List";
+}
+
+<h1>To-Do List</h1>
+<form asp-action="Add" method="post">
+    <input type="text" name="title" placeholder="New task" />
+    <button type="submit">Add</button>
+</form>
+
+
+<ul>
+    @foreach (var t in Model)
+    {
+        <li>
+            <form asp-action="ToggleComplete" method="post" style="display:inline">
+                <input type="hidden" name="id" value="@t.Id" />
+                <button type="submit">@(t.IsCompleted ? "[✓]" : "[ ]")</button>
+            </form>
+            @t.Title
+        </li>
+    }
+</ul>

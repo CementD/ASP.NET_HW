@@ -1,0 +1,26 @@
+﻿@model ContactForm
+@{
+	ViewData["Title"] = "Contact form";
+}
+
+<h2>Contact form</h2>
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+	<div>
+		<label asp-for="FullName"></label>
+		@Html.TextBoxFor(m => m.FullName, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.FullName, "", new { @class = "text-danger" })
+	</div>
+	<div>
+		<label asp-for="Email"></label>
+		@Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+	</div>
+	<div>
+		<label asp-for="Message"></label>
+		@Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Message, "", new { @class = "text-danger" })
+	</div>
+	<input type="submit" value="Send" class="btn btn-primary" />
+}

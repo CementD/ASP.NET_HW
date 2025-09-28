@@ -1,0 +1,29 @@
+﻿@model TicketOrder
+@{
+	ViewData["Title"] = "Order Tickets";
+}
+<h2>Order Tickets</h2>
+@using (Html.BeginForm("Order", "Ticket", FormMethod.Post))
+{
+	<div>
+		<label asp-for="FullName"></label>
+		@Html.TextBoxFor(m => m.FullName)
+		@Html.ValidationMessageFor(m => m.FullName)
+	</div>
+	<div>
+		<label asp-for="Email"></label>
+		@Html.TextBoxFor(m => m.Email)
+		@Html.ValidationMessageFor(m => m.Email)
+	</div>
+	<div>
+		<label asp-for="EventDate"></label>
+		@Html.TextBoxFor(m => m.EventDate, "{0:dd-MM-yyyy}", new {type = "date"})
+		@Html.ValidationMessageFor(m => m.EventDate)
+	</div>
+	<div>
+		<label asp-for="TicketsCount"></label>
+		@Html.TextBoxFor(m => m.TicketsCount)
+		@Html.ValidationMessageFor(m => m.TicketsCount)
+	</div>
+	<button type="submit" class="btn btn-primary">Place Order</button>
+}

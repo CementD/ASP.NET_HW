@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\webapplication2209\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\webapplication2209\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\webapplication2209\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\webapplication2209\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\webapplication2209\\views\\products\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|solutionrelative:views\\products\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\webapplication2209\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A7B158-6A5D-4D7E-A286-15B8132958F0}|WebApplication2209.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-24T15:56:09.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Show.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Show.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Show.cshtml",
+              "RelativeToolTip": "Views\\Products\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T16:09:31.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T15:58:12.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T15:52:36.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T15:51:32.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\WebApplication2209\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T15:50:40.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿@model Feedback
+@{
+	ViewData["Title"] = "Submit Feedback";
+}
+<h2>Submit Feedback</h2>
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+	<div>
+		<label asp-for="Title"></label>
+		@Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger" })
+	</div>
+	<div>
+		<label asp-for="Message"></label>
+		@Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Message, "", new { @class = "text-danger" })
+	</div>
+	<input type="submit" value="Submit" class="btn btn-primary" />
+}

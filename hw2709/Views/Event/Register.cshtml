@@ -1,0 +1,30 @@
+﻿@model EventRegistration
+@{
+	ViewData["Title"] = "Event Registration";
+}
+<h2>Event Registration</h2>
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+	<div>
+		<label asp-for="FirstName"></label>
+		@Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
+	</div>
+	<div>
+		<label asp-for="LastName"></label>
+		@Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+	</div>
+	<div>
+		<label asp-for="Email"></label>
+		@Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+	</div>
+	<div>
+		<label asp-for="Age"></label>
+		@Html.TextBoxFor(m => m.Age, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.Age, "", new { @class = "text-danger" })
+	</div>
+	<input type="submit" value="Register" class="btn btn-success" />
+}

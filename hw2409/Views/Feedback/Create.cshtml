@@ -1,0 +1,25 @@
+﻿@model Feedback
+@{
+	ViewData["Title"] = "Submit Feedback";
+}
+
+<h2>Submit Feedback</h2>
+@using (Html.BeginForm("Create", "Feedback", FormMethod.Post))
+{
+	<div>
+		<label asp-for="Name"></label>
+		@Html.TextBoxFor(m => m.Name)
+		@Html.ValidationMessageFor(m => m.Name)
+	</div>
+	<div>
+		<label asp-for="Email"></label>
+		@Html.TextAreaFor(m => m.Email)
+		@Html.ValidationMessageFor(m => m.Email)
+	</div>
+	<div>
+		<label asp-for="Message"></label>
+		@Html.TextAreaFor(m => m.Message)
+		@Html.ValidationMessageFor(m => m.Message)
+	</div>
+	<button type="submit" class="btn btn-primary">Submit</button>
+}

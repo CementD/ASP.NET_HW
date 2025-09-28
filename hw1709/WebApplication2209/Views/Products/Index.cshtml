@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Product>
+
+<h1>Product List</h1>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var product in Model)
+		{
+			<tr>
+				<td>@product.Name</td>
+				<td>@product.Price.ToString("C")</td>
+				<td>
+					<a asp-action="Show" asp-route-id="@product.Id" class="btn btn-info">Show</a>
+				</td>
+			</tr>
+		}
+	</tbody>

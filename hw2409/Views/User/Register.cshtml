@@ -1,0 +1,24 @@
+﻿@model User
+@{
+	ViewData["Title"] = "Register";
+}
+<h2>Register</h2>
+@using (Html.BeginForm("Register", "User", FormMethod.Post))
+{
+	<div>
+		<label asp-for="Name"></label>
+		@Html.TextBoxFor(m => m.Name)
+		@Html.ValidationMessageFor(m => m.Name)
+	</div>
+	<div>
+		<label asp-for="Email"></label>
+		@Html.TextBoxFor(m => m.Email)
+		@Html.ValidationMessageFor(m => m.Email)
+	</div>
+	<div>
+		<label asp-for="Password"></label>
+		@Html.PasswordFor(m => m.Password)
+		@Html.ValidationMessageFor(m => m.Password)
+	</div>
+	<button type="submit" class="btn btn-primary">Register</button>
+}

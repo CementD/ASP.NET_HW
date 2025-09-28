@@ -1,0 +1,5 @@
+﻿@model TicketOrder
+
+<h2>Order Confirmation</h2>
+<p>Thank you, @Model.FullName, for your order!</p>
+<p>We have received your order for @Model.TicketsCount ticket(s) for the event on @Model.EventDate.ToString("dd-MM-yyyy"). A confirmation email has been sent to @Model.Email.</p>

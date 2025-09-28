@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Post>
+@{
+	ViewData["Title"] = "Posts";
+}
+
+<a asp-action="Create">Create New Post</a>
+
+<h1>Posts</h1>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Content</th>
+			<th>Author</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var post in Model)
+		{
+			<tr>
+				<td>
+					<a asp-action="Details">@post.Title</a>
+				</td>
+				<td>@post.Content</td>
+				<td>@post.Author</td>
+			</tr>
+		}
+	</tbody>
+</table>
