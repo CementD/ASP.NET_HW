@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-primary">@ViewData["Message"]</h1>
+<p class="text-success">Your num: @ViewBag.Number</p>
+
+<a asp-controller="Home" asp-action="About" class="btn btn-info">About</a>

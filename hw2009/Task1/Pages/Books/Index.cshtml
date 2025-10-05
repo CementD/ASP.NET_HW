@@ -1,0 +1,34 @@
+﻿@page
+@model Task1.Pages.Books.IndexModel
+@{
+	ViewData["Title"] = "Books List";
+}
+
+<h1>Books</h1>
+<a asp-page="Create">+ Add Book</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>ISBN</th>
+            <th>Author</th>
+            <th>Publish year</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>@book.Title</td>
+				<td>@book.ISBN</td>
+				<td>@book.Author.FirstName @book.Author.LastName</td>
+				<td>@book.PublishYear</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@book.Id">Edit</a> |
+                    <a asp-page="Delete" asp-route-id="@book.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

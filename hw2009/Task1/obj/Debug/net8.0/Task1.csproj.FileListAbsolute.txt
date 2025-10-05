@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.AssemblyInfo.cs
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\ASP.NET_HW\hw2009\Task1\obj\Debug\net8.0\Task1.sourcelink.json

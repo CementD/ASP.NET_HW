@@ -1,0 +1,45 @@
+﻿@page
+@model Task1.Pages.Books.CreateModel
+@{
+    ViewData["Title"] = "Create Book";
+}
+
+<h1>Create Book</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Book.Title" class="control-label"></label>
+        <input asp-for="Book.Title" class="form-control" />
+        <span asp-validation-for="Book.Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Book.ISBN" class="control-label"></label>
+        <input asp-for="Book.ISBN" class="form-control" />
+        <span asp-validation-for="Book.ISBN" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Book.PublishYear" class="control-label"></label>
+        <input asp-for="Book.PublishYear" class="form-control" />
+        <span asp-validation-for="Book.PublishYear" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Author</label>
+        <select asp-for="Book.AuthorId" class="form-control"
+                asp-items="@(new SelectList(Model.AuthorList, "Id", "LastName"))">
+            <option value="">-- Select Author --</option>
+        </select>
+        <span asp-validation-for="Book.AuthorId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

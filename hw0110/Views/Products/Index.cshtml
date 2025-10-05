@@ -1,0 +1,28 @@
+﻿@model List<Product>
+@{
+	ViewData["Title"] = "Product list";
+}
+
+<h2>@ViewBag.Info</h2>
+
+<a asp-controller="Products" asp-action="Create" class="btn btn-primary mb-3">Add product</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Name</td>
+                <td>$@p.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>

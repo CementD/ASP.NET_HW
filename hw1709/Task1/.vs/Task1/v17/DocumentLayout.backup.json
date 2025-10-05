@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\Task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\task1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\task1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\task1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\task1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\task1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2449D4B1-4DC4-4C63-AAE4-5003D27205FB}|Task1.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1709\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -92,20 +92,20 @@
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\Task1\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-20T17:58:35.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\Task1\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\Task1\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwCcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T17:49:10.45Z",
               "EditorCaption": ""
@@ -120,8 +120,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T17:20:17.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T17:20:17.454Z"
             },
             {
               "$type": "Document",
@@ -137,13 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\Task1\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1709\\Task1\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T17:10:25.984Z",
               "EditorCaption": ""
@@ -158,8 +157,7 @@
               "RelativeToolTip": "Models\\OrderProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T17:01:42.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T17:01:42.102Z"
             },
             {
               "$type": "Document",
@@ -171,8 +169,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T17:01:05.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T17:01:05.722Z"
             },
             {
               "$type": "Document",
@@ -184,8 +181,7 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T17:00:36.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T17:00:36.459Z"
             }
           ]
         }

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\pages\\students\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:pages\\students\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\hw1509.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -131,16 +139,8 @@
       "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw1509\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76D548CD-670F-4932-9A2A-EE4D52D4A03B}|hw1509.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -150,24 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 35,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "hw1509",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\hw1509.csproj",
-              "RelativeDocumentMoniker": "hw1509.csproj",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\hw1509.csproj",
-              "RelativeToolTip": "hw1509.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-20T16:39:03.515Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -183,7 +170,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
+              "Title": "hw1509.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\hw1509.csproj",
+              "RelativeDocumentMoniker": "hw1509.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\hw1509.csproj",
+              "RelativeToolTip": "hw1509.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-20T16:39:03.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "20250915210434_FixProductPriceType.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Migrations\\20250915210434_FixProductPriceType.cs",
               "RelativeDocumentMoniker": "Migrations\\20250915210434_FixProductPriceType.cs",
@@ -195,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Products\\Delete.cshtml.cs",
@@ -207,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Products\\Edit.cshtml.cs",
@@ -219,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Products\\Create.cshtml.cs",
@@ -231,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Products\\Edit.cshtml",
@@ -239,12 +238,11 @@
               "RelativeToolTip": "Pages\\Products\\Edit.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAADwvxoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T20:21:07.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T20:21:07.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Products\\Delete.cshtml",
@@ -252,12 +250,11 @@
               "RelativeToolTip": "Pages\\Products\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T20:20:55.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T20:20:55.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Products\\Create.cshtml",
@@ -265,12 +262,11 @@
               "RelativeToolTip": "Pages\\Products\\Create.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvxgAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T20:20:42.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T20:20:42.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Products\\Index.cshtml.cs",
@@ -282,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Products\\Index.cshtml",
@@ -290,12 +286,11 @@
               "RelativeToolTip": "Pages\\Products\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T20:20:00.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T20:20:00.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Students\\Edit.cshtml.cs",
@@ -307,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Students\\Edit.cshtml",
@@ -319,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Students\\Delete.cshtml.cs",
@@ -331,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Students\\Delete.cshtml",
@@ -343,20 +338,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Students\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Students\\Index.cshtml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T19:43:15.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Students\\Index.cshtml",
@@ -364,12 +359,11 @@
               "RelativeToolTip": "Pages\\Students\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T19:42:51.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T19:42:51.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Students\\Create.cshtml",
@@ -381,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Students\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Students\\Create.cshtml.cs",
@@ -393,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml.cs",
@@ -405,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml",
@@ -413,12 +407,11 @@
               "RelativeToolTip": "Pages\\Books\\Delete.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T18:11:17.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T18:11:17.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml.cs",
@@ -430,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml",
@@ -438,12 +431,11 @@
               "RelativeToolTip": "Pages\\Books\\Edit.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T18:08:31.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T18:08:31.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml.cs",
@@ -451,12 +443,11 @@
               "RelativeToolTip": "Pages\\Books\\Create.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:03:03.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T18:03:03.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml",
@@ -464,12 +455,11 @@
               "RelativeToolTip": "Pages\\Books\\Create.cshtml",
               "ViewState": "AgIAABMAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T18:02:58.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T18:02:58.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml.cs",
@@ -481,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
@@ -493,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 2,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\package.json",
               "RelativeDocumentMoniker": "package.json",
@@ -501,11 +491,12 @@
               "RelativeToolTip": "package.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-15T17:56:37.963Z"
+              "WhenOpened": "2025-09-15T17:56:37.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -517,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Pages\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml",
@@ -525,12 +516,11 @@
               "RelativeToolTip": "Pages\\Books\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-15T17:54:47.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T17:54:47.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -538,37 +528,37 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T17:34:50.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T17:34:50.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-15T17:33:00.387Z"
+              "WhenOpened": "2025-09-15T17:33:00.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T17:30:48.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -580,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -592,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw1509\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -600,8 +590,7 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T17:26:16.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T17:26:16.709Z"
             }
           ]
         }

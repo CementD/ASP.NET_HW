@@ -1,0 +1,33 @@
+﻿@page
+@model Task1.Pages.Authors.IndexModel
+@{
+	ViewData["Title"] = "Authors List";
+}
+
+<h1>Authors</h1>
+<a asp-page="Create">+ Add Author</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Birth Date</th>
+            <th>Books</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model.Authors)
+        {
+            <tr>
+                <td>@author.FirstName @author.LastName</td>
+                <td>@author.BirthDate.ToShortDateString()</td>
+                <td>@(author.Books?.Count ?? 0)</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@author.Id">Edit</a> |
+                    <a asp-page="Delete" asp-route-id="@author.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
