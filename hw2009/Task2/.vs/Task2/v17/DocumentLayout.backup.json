@@ -1,0 +1,713 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\deleteitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\deleteitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\deleteitem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\deleteitem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\additem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\additem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\pages\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:pages\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\hw2009\\task2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C75DA4E0-3D42-44DC-82CF-9876CB388287}|Task2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteItem.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\DeleteItem.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders\\DeleteItem.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\DeleteItem.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders\\DeleteItem.cshtml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T11:30:37.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\DeleteItem.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders\\DeleteItem.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\DeleteItem.cshtml",
+              "RelativeToolTip": "Pages\\Orders\\DeleteItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:30:33.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddItem.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\AddItem.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders\\AddItem.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\AddItem.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders\\AddItem.cshtml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T11:29:37.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:19:56.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:19:30.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:36:39.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:35:47.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\AddItem.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders\\AddItem.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\AddItem.cshtml",
+              "RelativeToolTip": "Pages\\Orders\\AddItem.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:21:17.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders\\Delete.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T11:28:24.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Orders\\Details.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:19:45.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T11:28:04.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders\\Edit.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T11:26:20.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Customers\\Index.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:44:05.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T11:25:36.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Orders\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:19:22.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T11:21:38.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:33:13.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T11:19:11.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:32:57.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Products\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Products\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:58:13.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:53:35.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:53:20.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Products\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Products\\Details.cshtml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:56:50.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Customers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:47:23.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Products\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Products\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:55:22.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:52:58.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:53:08.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Products\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Products\\Create.cshtml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:54:31.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Products\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Products\\Index.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:53:46.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Products\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:52:43.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Customers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:46:23.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Customers\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:49:36.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Customers\\Delete.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:49:39.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Customers\\Edit.cshtml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:46:26.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Customers\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:47:27.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Customers\\Create.cshtml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:45:22.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:45:20.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Pages\\Customers\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-11T10:42:08.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:39:16.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:32:37.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T10:32:46.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\hw2009\\Task2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-11T10:37:59.366Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

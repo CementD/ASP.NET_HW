@@ -1,0 +1,18 @@
+﻿@page "{id:int}"
+@model Task2.Pages.Orders.EditModel
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<h1>Edit Order</h1>
+
+<form method="post">
+	<input type="hidden" asp-for="Order.Id" />
+    <div class="form-group">
+        <label asp-for="Order.Status"></label>
+        <select asp-for="Order.Status" class="form-control" asp-items="Html.GetEnumSelectList<Task2.Models.OrderStatus>()"></select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Save</button>
+    <a asp-page="Index" class="btn btn-secondary mt-3">Cancel</a>
+</form>

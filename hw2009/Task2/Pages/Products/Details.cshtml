@@ -1,0 +1,33 @@
+﻿@page "{id:int}"
+@model Task2.Pages.Products.DetailsModel
+@{
+	ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+
+<div>
+    <h4>@Model.Product.Name</h4>
+    <p><strong>Price:</strong> @Model.Product.Price.ToString("0.00") €</p>
+    <p><strong>In Stock:</strong> @Model.Product.StockQuantity</p>
+</div>
+
+@if (Model.Product.OrderItems != null && Model.Product.OrderItems.Any())
+{
+    <h4>Included in Orders:</h4>
+    <ul>
+        @foreach (var item in Model.Product.OrderItems)
+        {
+            <li>Order #@item.OrderId — Quantity: @item.Quantity</li>
+        }
+    </ul>
+}
+else
+{
+    <p><em>This product is not part of any order.</em></p>
+}
+
+<p>
+    <a asp-page="Edit" asp-route-id="@Model.Product.Id" class="btn btn-primary">Edit</a>
+    <a asp-page="Index" class="btn btn-secondary">Back</a>
+</p>

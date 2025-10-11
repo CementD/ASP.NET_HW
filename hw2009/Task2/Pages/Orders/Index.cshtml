@@ -1,0 +1,49 @@
+﻿@page
+@model Task2.Pages.Orders.IndexModel
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h1>Orders</h1>
+
+<form method="get" class="mb-3">
+    <label>Status:</label>
+    <select asp-for="StatusFilter" asp-items="Html.GetEnumSelectList<Task2.Models.OrderStatus>()">
+        <option value="">All</option>
+    </select>
+    <label>Date:</label>
+    <input asp-for="DateFilter" type="date" />
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
+
+<p>
+    <a asp-page="Create" class="btn btn-success">Create New Order</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Total</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>@order.Customer?.FullName</td>
+                <td>@order.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@order.Status</td>
+                <td>@order.Total.ToString("C")</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@order.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-page="Details" asp-route-id="@order.Id" class="btn btn-info btn-sm">Details</a>
+                    <a asp-page="Delete" asp-route-id="@order.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

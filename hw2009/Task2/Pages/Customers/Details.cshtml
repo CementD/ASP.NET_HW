@@ -1,0 +1,35 @@
+﻿@page "{id:int}"
+@model Task2.Pages.Customers.DetailsModel
+@{
+	ViewData["Title"] = "Customer Details";
+}
+
+<h1>Customer Details</h1>
+
+<div>
+    <h4>@Model.Customer.FullName</h4>
+    <p><strong>Email:</strong> @Model.Customer.Email</p>
+    <p><strong>Phone:</strong> @Model.Customer.Phone</p>
+</div>
+
+@if (Model.Customer.Orders != null && Model.Customer.Orders.Any())
+{
+    <h4>Orders</h4>
+    <ul>
+        @foreach (var order in Model.Customer.Orders)
+        {
+            <li>
+                Order #@order.Id — @order.Status, @order.OrderDate.ToLocalTime().ToString("yyyy-MM-dd HH:mm")
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p><em>No orders found.</em></p>
+}
+
+<p>
+    <a asp-page="Edit" asp-route-id="@Model.Customer.Id" class="btn btn-primary">Edit</a>
+    <a asp-page="Index" class="btn btn-secondary">Back</a>
+</p>

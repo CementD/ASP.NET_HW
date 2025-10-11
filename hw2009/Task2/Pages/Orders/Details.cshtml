@@ -1,0 +1,52 @@
+﻿@page
+@model Task2.Pages.Orders.DetailsModel
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h1>Order Details</h1>
+
+<div>
+    <h4>Customer: @Model.Order.Customer?.FullName</h4>
+    <p>Email: @Model.Order.Customer?.Email</p>
+    <p>Date: @Model.Order.OrderDate.ToString("dd.MM.yyyy HH:mm")</p>
+    <p>Status: @Model.Order.Status</p>
+    <p><strong>Total:</strong> @Model.Order.Total.ToString("C")</p>
+</div>
+
+<hr />
+
+<h3>Items</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Line Total</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Order.OrderItems ?? new List<Task2.Models.OrderItem>())
+        {
+            <tr>
+                <td>@item.Product?.Name</td>
+                <td>@item.UnitPrice.ToString("C")</td>
+                <td>@item.Quantity</td>
+                <td>@item.LineTotal.ToString("C")</td>
+                <td>
+                    <a asp-page="DeleteItem" asp-route-id="@item.Id" asp-route-orderId="@Model.Order.Id" class="btn btn-danger btn-sm">Remove</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-page="AddItem" asp-route-orderId="@Model.Order.Id" class="btn btn-success">Add Product</a>
+</p>
+
+<p>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+</p>

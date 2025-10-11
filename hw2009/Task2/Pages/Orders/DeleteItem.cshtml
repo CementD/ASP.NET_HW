@@ -1,0 +1,20 @@
+﻿@page
+@model Task2.Pages.Orders.DeleteItemModel
+@{
+    ViewData["Title"] = "Remove Item";
+}
+
+<h1>Remove Item</h1>
+
+<h3>Are you sure you want to remove this product?</h3>
+
+<div>
+    <p><strong>Product:</strong> @Model.OrderItem.Product?.Name</p>
+    <p><strong>Quantity:</strong> @Model.OrderItem.Quantity</p>
+    <p><strong>Price:</strong> @Model.OrderItem.UnitPrice.ToString("C")</p>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Remove</button>
+    <a asp-page="Details" asp-route-id="@Model.OrderItem.OrderId" class="btn btn-secondary">Cancel</a>
+</form>
