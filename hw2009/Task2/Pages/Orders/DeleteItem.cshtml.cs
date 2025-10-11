@@ -44,10 +44,8 @@ namespace Task2.Pages.Orders
             if (item == null)
                 return NotFound();
 
-            // вернуть товар на склад
             item.Product!.StockQuantity += item.Quantity;
 
-            // удалить позицию и пересчитать сумму
             _context.OrderItems.Remove(item);
             await _context.SaveChangesAsync();
 

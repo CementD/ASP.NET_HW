@@ -46,10 +46,8 @@ namespace Task2.Pages.Orders
             OrderItem.UnitPrice = product.Price;
             order.OrderItems.Add(OrderItem);
 
-            // уменьшение склада
             product.StockQuantity -= OrderItem.Quantity;
 
-            // пересчёт общей суммы
             order.Total = order.OrderItems.Sum(i => i.LineTotal);
 
             await _context.SaveChangesAsync();
