@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SmartTrip.Models
+{
+    public class User
+    {
+        public int Id { get; set; }
+
+        [Required, EmailAddress]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        public string Password { get; set; } = string.Empty;
+
+        public Role Role { get; set; } = Role.User;
+    }
+}

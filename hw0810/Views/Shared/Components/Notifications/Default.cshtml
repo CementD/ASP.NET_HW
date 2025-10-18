@@ -1,0 +1,18 @@
+﻿@model IEnumerable<hw0810.Models.Notification>
+
+@if (!Model.Any())
+{
+    <div class="text-sm text-gray-500">No notifications</div>
+}
+else
+{
+    <div class="bg-yellow-50 p-3 rounded">
+        <h5 class="font-medium mb-2">Notifications</h5>
+        <ul class="text-sm space-y-1">
+            @foreach (var n in Model)
+            {
+                <li>@n.Text</li>
+            }
+        </ul>
+    </div>
+}

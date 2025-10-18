@@ -1,0 +1,11 @@
+﻿@model IEnumerable<hw0810.Models.Post>
+
+<div class="bg-white p-4 rounded shadow">
+    <h4 class="font-semibold mb-2">Latest Posts</h4>
+    <ul class="space-y-1 text-sm">
+        @foreach (var p in Model)
+        {
+            <li>@p.Title <span class="text-gray-400 text-xs">(@p.CreatedAt.ToLocalTime().ToShortDateString())</span></li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,21 @@
+﻿@model hw0810.Models.User?
+<nav>
+    <ul class="flex gap-4 items-center">
+        <li><a asp-controller="Home" asp-action="Index" class="text-gray-700 hover:text-blue-600">Home</a></li>
+        <li><a asp-controller="Products" asp-action="Index" class="text-gray-700 hover:text-blue-600">Products</a></li>
+        @if (Model != null && Model.Role == hw0810.Models.Role.Admin)
+        {
+            <li><a href="/admin" class="text-gray-700 hover:text-blue-600">Admin Panel</a></li>
+        }
+        <li>
+            @if (Model == null)
+            {
+                <a href="/account/login" class="text-gray-700 hover:text-blue-600">Login</a>
+            }
+            else
+            {
+                <span class="text-sm text-gray-600">Hello, @Model.Name</span>
+            }
+        </li>
+    </ul>
+</nav>

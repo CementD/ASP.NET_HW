@@ -1,0 +1,13 @@
+﻿@model IEnumerable<hw0810.Models.Product>
+
+<div class="bg-white p-4 rounded shadow">
+    <h4 class="font-semibold mb-2">Top Products</h4>
+    <div class="flex flex-wrap">
+        @foreach (var p in Model)
+        {
+            <div class="w-40 m-1">
+                @await Html.PartialAsync("_ProductCard", p)
+            </div>
+        }
+    </div>
+</div>

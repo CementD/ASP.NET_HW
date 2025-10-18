@@ -1,0 +1,8 @@
+﻿@model IEnumerable<hw0810.Models.Post>
+
+<div class="flex gap-2">
+    @foreach (var p in Model)
+    {
+        <span class="px-2 py-1 bg-gray-100 rounded text-sm">@p.Title</span>
+    }
+</div>

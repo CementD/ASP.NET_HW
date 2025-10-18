@@ -1,0 +1,39 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+
+# Build results
+bin/
+obj/
+
+# Logs
+*.log
+
+# Entity Framework migrations backup
+*Migrations/Backup*/
+
+# User-specific files
+*.rsuser
+*.userosscache
+
+# Publish outputs
+*.publish.xml
+app.publish/
+
+# Rider / JetBrains
+.idea/
+
+# Temp files
+*.tmp
+*.temp
+
+# ASP.NET static files cache
+wwwroot/lib/
+node_modules/
+
+# Visual Studio Code
+.vscode/
