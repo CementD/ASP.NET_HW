@@ -1,55 +1,66 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SmartTrip.Data;
 using SmartTrip.Models;
 
 namespace SmartTrip.Controllers
 {
     public class DestinationsController : Controller
     {
-        private static readonly List<Destination> _destinations = new();
+        private readonly AppDbContext _context;
 
-        public IActionResult Index() => View(_destinations);
+        public DestinationsController(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var destinations = await _context.Destinations.ToListAsync();
+            return View(destinations);
+        }
 
         public IActionResult Create() => View();
 
         [HttpPost]
-        public IActionResult Create(Destination model)
+        public async Task<IActionResult> Create(Destination destination)
         {
             if (!ModelState.IsValid)
-                return View(model);
+                return View(destination);
 
-            model.Id = _destinations.Count + 1;
-            _destinations.Add(model);
-            TempData["Success"] = "Destination added successfully!";
+            _context.Destinations.Add(destination);
+            await _context.SaveChangesAsync();
+            TempData["Success"] = "Напрямок додано!";
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
-            var item = _destinations.FirstOrDefault(d => d.Id == id);
-            if (item == null) return NotFound();
-            return View(item);
+            var dest = await _context.Destinations.FindAsync(id);
+            if (dest == null) return NotFound();
+            return View(dest);
         }
 
         [HttpPost]
-        public IActionResult Edit(Destination model)
+        public async Task<IActionResult> Edit(Destination destination)
         {
-            var item = _destinations.FirstOrDefault(d => d.Id == model.Id);
-            if (item == null) return NotFound();
+            if (!ModelState.IsValid)
+                return View(destination);
 
-            item.Name = model.Name;
-            item.Country = model.Country;
-            item.Description = model.Description;
-            item.ImageUrl = model.ImageUrl;
-
-            TempData["Success"] = "Destination updated!";
+            _context.Destinations.Update(destination);
+            await _context.SaveChangesAsync();
+            TempData["Success"] = "Зміни збережено.";
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var item = _destinations.FirstOrDefault(d => d.Id == id);
-            if (item != null) _destinations.Remove(item);
-            TempData["Success"] = "Destination deleted!";
+            var dest = await _context.Destinations.FindAsync(id);
+            if (dest == null) return NotFound();
+
+            _context.Destinations.Remove(dest);
+            await _context.SaveChangesAsync();
+            TempData["Success"] = "Напрямок видалено.";
             return RedirectToAction(nameof(Index));
         }
     }

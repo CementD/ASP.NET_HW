@@ -16,9 +16,9 @@ namespace SmartTrip.Models
         [Required, EmailAddress]
         public string Email { get; set; } = string.Empty;
 
-        [Range(1, int.MaxValue)]
+        [Range(1, 100)]
         public int Seats { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

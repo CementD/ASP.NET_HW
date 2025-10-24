@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using SmartTrip.Data;
+using SmartTrip.Services;
+using SmartTrip.Services.Interfaces;
+
 namespace SmartTrip
 {
     public class Program
@@ -5,6 +10,13 @@ namespace SmartTrip
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddMemoryCache();
+
+            builder.Services.AddScoped<ITourService, TourService>();
+            builder.Services.AddScoped<IEmailService, EmailService>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

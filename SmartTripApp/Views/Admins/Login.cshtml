@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-200 to-blue-400">
+    <div class="bg-white shadow-2xl rounded-xl p-10 w-96">
+        <h2 class="text-3xl font-bold mb-6 text-center text-gray-800">Welcome Back!</h2>
+
+        <form method="post" class="space-y-5">
+            <div>
+                <label class="block text-gray-700 font-medium mb-2">Username</label>
+                <input name="username"
+                       class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                       placeholder="Enter your username"
+                       required />
+            </div>
+
+            <div>
+                <label class="block text-gray-700 font-medium mb-2">Password</label>
+                <input name="password" type="password"
+                       class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                       placeholder="Enter your password"
+                       required />
+            </div>
+
+            @if (ViewBag.Error != null)
+            {
+                <p class="text-red-500 text-sm mb-3 text-center">@ViewBag.Error</p>
+            }
+
+            <button type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition duration-200">
+                Sign In
+            </button>
+        </form>
+
+        <p class="mt-6 text-center text-gray-500 text-sm">
+            &copy; @DateTime.Now.Year SmartTrip. All rights reserved.
+        </p>
+    </div>
+</div>

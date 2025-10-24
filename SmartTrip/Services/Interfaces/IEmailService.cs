@@ -2,6 +2,6 @@
 {
     public interface IEmailService
     {
-        Task SendConfirmationAsync(string email, string name);
+        Task SendBookingConfirmationAsync(string email, string tourName);
     }
 }

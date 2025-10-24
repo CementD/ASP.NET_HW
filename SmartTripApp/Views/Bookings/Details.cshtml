@@ -1,0 +1,43 @@
+﻿@model SmartTripApp.Models.Booking
+
+@{
+    ViewData["Title"] = "Booking Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="max-w-xl mx-auto mt-10 bg-white p-8 rounded-xl shadow-lg border border-gray-200">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6">Booking Details</h2>
+
+    <dl class="space-y-3 text-gray-700">
+        <div>
+            <dt class="font-semibold">Tour:</dt>
+            <dd>
+                <a asp-controller="Tour" asp-action="Details" asp-route-id="@Model.Tour.Id"
+                   class="text-blue-600 hover:underline">@Model.Tour.Name</a>
+            </dd>
+        </div>
+        <div>
+            <dt class="font-semibold">Customer Name:</dt>
+            <dd>@Model.CustomerName</dd>
+        </div>
+        <div>
+            <dt class="font-semibold">Email:</dt>
+            <dd>@Model.Email</dd>
+        </div>
+        <div>
+            <dt class="font-semibold">Seats:</dt>
+            <dd>@Model.Seats</dd>
+        </div>
+        <div>
+            <dt class="font-semibold">Created At:</dt>
+            <dd>@Model.CreatedAt.ToShortDateString()</dd>
+        </div>
+    </dl>
+
+    <div class="mt-6 flex gap-4">
+        <a asp-action="Edit" asp-route-id="@Model.Id"
+           class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded-lg transition">Edit</a>
+        <a asp-action="Index"
+           class="border border-gray-400 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-100 transition">Back</a>
+    </div>
+</div>

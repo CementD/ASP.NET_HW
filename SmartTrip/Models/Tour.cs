@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SmartTrip.Models
 {
@@ -10,19 +11,19 @@ namespace SmartTrip.Models
         public int DestinationId { get; set; }
         public Destination? Destination { get; set; }
 
-        [Required, StringLength(100)]
+        [Required, StringLength(120)]
         public string Name { get; set; } = string.Empty;
 
-        [DataType(DataType.Date)]
+        [Required]
         public DateTime StartDate { get; set; }
 
-        [DataType(DataType.Date)]
+        [Required]
         public DateTime EndDate { get; set; }
 
-        [Range(1, double.MaxValue)]
+        [Column(TypeName = "decimal(10,2)")]
         public decimal Price { get; set; }
 
-        [Range(1, int.MaxValue)]
+        [Range(1, 1000)]
         public int MaxSeats { get; set; }
 
         public int BookedSeats { get; set; }

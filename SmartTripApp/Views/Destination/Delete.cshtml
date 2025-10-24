@@ -1,0 +1,27 @@
+﻿@model SmartTripApp.Models.Destination
+@{
+    ViewData["Title"] = "Delete Destination";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="max-w-lg mx-auto bg-white mt-20 shadow-xl rounded-2xl p-8 text-center">
+    <h1 class="text-2xl font-bold text-red-600 mb-4">Delete Destination</h1>
+    <p class="text-gray-700 mb-6">Are you sure you want to delete <b>@Model.Name</b>?</p>
+
+    <img src="@Model.ImageUrl" alt="@Model.Name"
+         class="w-full max-h-72 object-cover rounded-xl mb-6 shadow" />
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <div class="flex justify-center gap-4">
+            <button type="submit"
+                    class="px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 shadow-md transition">
+                Yes, Delete
+            </button>
+            <a asp-action="Index"
+               class="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition">
+                Cancel
+            </a>
+        </div>
+    </form>
+</div>

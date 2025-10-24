@@ -1,14 +1,26 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SmartTrip.Models;
+using Microsoft.EntityFrameworkCore;
+using SmartTrip.Data;
 
 namespace SmartTrip.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var tours = await _context.Tours
+                .Include(t => t.Destination)
+                .OrderBy(t => t.StartDate)
+                .ToListAsync();
+
+            return View(tours);
         }
     }
 }

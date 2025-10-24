@@ -1,0 +1,45 @@
+﻿@model (int TotalSeats, int BookedSeats)
+
+@{
+    int total = Model.TotalSeats;
+    int booked = Model.BookedSeats;
+    int columns = 8;
+    int rows = (int)Math.Ceiling(total / (double)columns);
+
+    var rnd = new Random();
+    var bookedIndexes = Enumerable.Range(0, total).OrderBy(x => rnd.Next()).Take(booked).ToHashSet();
+}
+
+<div class="w-full max-w-lg mx-auto mt-10 bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
+    <h2 class="text-center text-2xl font-bold mb-6 text-gray-800">
+        🚌 Bus Seat Layout
+    </h2>
+
+    <div class="grid gap-2 justify-items-center"
+         style="grid-template-columns: repeat(@columns, minmax(0, 1fr));">
+        @for (int i = 0; i < total; i++)
+        {
+            bool isBooked = bookedIndexes.Contains(i);
+            string seatColor = isBooked ? "bg-red-500" : "bg-emerald-500 hover:bg-emerald-600";
+            string seatCursor = isBooked ? "cursor-not-allowed" : "cursor-pointer";
+            string tooltip = isBooked ? "Seat booked" : "Seat available";
+
+            <div title="@tooltip"
+                 class="flex items-center justify-center w-10 h-10 rounded-md shadow-sm text-white font-semibold text-sm
+                            transition duration-300 transform hover:scale-105 @seatColor @seatCursor">
+                @(i + 1)
+            </div>
+        }
+    </div>
+
+    <div class="flex justify-center gap-8 mt-8 text-sm text-gray-700">
+        <div class="flex items-center gap-2">
+            <div class="w-5 h-5 bg-emerald-500 rounded"></div>
+            <span>Available</span>
+        </div>
+        <div class="flex items-center gap-2">
+            <div class="w-5 h-5 bg-red-500 rounded"></div>
+            <span>Booked</span>
+        </div>
+    </div>
+</div>

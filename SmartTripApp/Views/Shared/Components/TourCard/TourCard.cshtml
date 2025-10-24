@@ -1,0 +1,39 @@
+﻿@model SmartTripApp.Models.Tour
+
+@{
+    bool isFull = Model.BookedSeats >= Model.MaxSeats;
+    bool isPast = Model.StartDate < DateOnly.FromDateTime(DateTime.Now);
+}
+
+<div class="bg-white shadow-sm rounded-xl hover:shadow-md transition flex justify-between items-center p-3 mb-3">
+    <div class="flex flex-col md:flex-row md:items-center gap-2 text-sm md:text-base">
+        <span class="font-semibold text-gray-800">@Model.Destination.Country</span>
+        <span class="text-gray-600">| @Model.Name</span>
+        <span class="text-gray-500">| €@Model.Price</span>
+        <span class="text-gray-500">| @Model.StartDate:dd/MM - @Model.EndDate:dd/MM</span>
+    </div>
+
+    <div class="flex items-center gap-2">
+        <a asp-controller="BookingSearch" asp-action="TourDetails" asp-route-id="@Model.Id"
+           class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-md transition text-sm">
+            More Info
+        </a>
+
+        @if (isFull || isPast)
+        {
+            <button disabled class="bg-gray-400 text-white px-4 py-1 rounded-md cursor-not-allowed text-sm">
+                Sold Out
+            </button>
+        }
+        else
+        {
+            <form asp-controller="BookingSearch" asp-action="BookingForm" method="get">
+                <input type="hidden" name="tourId" value="@Model.Id" />
+                <button type="submit"
+                        class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 rounded-md transition text-sm">
+                    Book Now
+                </button>
+            </form>
+        }
+    </div>
+</div>

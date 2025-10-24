@@ -4,10 +4,13 @@ namespace SmartTrip.Services
 {
     public class EmailService : IEmailService
     {
-        public Task SendConfirmationAsync(string email, string name)
+        public async Task SendBookingConfirmationAsync(string email, string tourName)
         {
-            Console.WriteLine($"[EmailService] Confirmation sent to {name} ({email}).");
-            return Task.CompletedTask;
+            // имитация отправки email — просто выводим в консоль
+            await Task.Run(() =>
+            {
+                Console.WriteLine($"[EmailService] Sent confirmation to {email} for tour: {tourName}");
+            });
         }
     }
 }

@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Tour>
+
+@{
+    ViewData["Title"] = "Booking Search";
+}
+
+@await Component.InvokeAsync("TourSearch", new { tourSearch = ViewBag.TourSearch })
+
+@foreach (var tour in Model)
+{
+    @await Component.InvokeAsync("TourCard", new { tour = tour, ViewType = SmartTripApp.ViewComponents.TourCardViewType.Short })
+}

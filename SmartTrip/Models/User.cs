@@ -12,6 +12,6 @@ namespace SmartTrip.Models
         [Required]
         public string Password { get; set; } = string.Empty;
 
-        public Role Role { get; set; } = Role.User;
+        public Role Role { get; set; } = Role.Customer;
     }
 }

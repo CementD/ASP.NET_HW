@@ -1,0 +1,52 @@
+﻿@model IEnumerable<SmartTripApp.Models.Tour>
+
+@{
+    ViewData["Title"] = "Tours";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1 class="text-2xl font-bold mb-6">Tours</h1>
+
+<div class="mb-4">
+    <a asp-action="Create" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-xl transition font-semibold">
+        Create New Tour
+    </a>
+</div>
+
+<table class="min-w-full bg-white shadow-md rounded-2xl overflow-hidden">
+    <thead class="bg-gray-100 text-left">
+        <tr>
+            <th class="p-3">Destination</th>
+            <th class="p-3">Name</th>
+            <th class="p-3">Start Date</th>
+            <th class="p-3">End Date</th>
+            <th class="p-3">Price</th>
+            <th class="p-3">Max Seats</th>
+            <th class="p-3">Booked Seats</th>
+            <th class="p-3">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tour in Model)
+        {
+            <tr class="border-t">
+                <td class="p-3">
+                    <a asp-controller="Destination" asp-action="Details" asp-route-id="@tour.Destination.Id" class="text-blue-600 hover:underline">
+                        @tour.Destination.Name
+                    </a>
+                </td>
+                <td class="p-3">@tour.Name</td>
+                <td class="p-3">@tour.StartDate.ToShortDateString()</td>
+                <td class="p-3">@tour.EndDate.ToShortDateString()</td>
+                <td class="p-3">€@tour.Price</td>
+                <td class="p-3">@tour.MaxSeats</td>
+                <td class="p-3">@tour.BookedSeats</td>
+                <td class="p-3 flex gap-2">
+                    <a asp-action="Edit" asp-route-id="@tour.Id" class="bg-yellow-400 hover:bg-yellow-500 text-white py-1 px-2 rounded transition text-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@tour.Id" class="bg-gray-200 hover:bg-gray-300 text-gray-800 py-1 px-2 rounded transition text-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@tour.Id" class="bg-red-600 hover:bg-red-700 text-white py-1 px-2 rounded transition text-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

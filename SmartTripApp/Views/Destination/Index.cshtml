@@ -1,0 +1,42 @@
+﻿@model IEnumerable<SmartTripApp.Models.Destination>
+
+@{
+    ViewData["Title"] = "Destinations";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="max-w-6xl mx-auto mt-10 bg-white rounded-2xl shadow-xl p-8">
+    <div class="flex justify-between items-center mb-6">
+        <h1 class="text-2xl font-bold text-gray-800">Destinations</h1>
+        <a asp-action="Create"
+           class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 shadow-md transition">
+            + Add New
+        </a>
+    </div>
+
+    <table class="min-w-full border border-gray-200 rounded-lg overflow-hidden">
+        <thead class="bg-gray-100 text-gray-700 text-left">
+            <tr>
+                <th class="py-3 px-4 font-semibold">Name</th>
+                <th class="py-3 px-4 font-semibold">Country</th>
+                <th class="py-3 px-4 font-semibold">Image</th>
+                <th class="py-3 px-4 font-semibold text-center w-40">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="border-t hover:bg-gray-50">
+                    <td class="py-3 px-4">@item.Name</td>
+                    <td class="py-3 px-4">@item.Country</td>
+                    <td class="py-3 px-4 truncate max-w-[180px]">@item.ImageUrl</td>
+                    <td class="py-3 px-4 text-center">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="text-blue-600 hover:underline">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id" class="text-green-600 hover:underline">View</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="text-red-600 hover:underline">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

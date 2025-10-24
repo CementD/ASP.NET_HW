@@ -1,0 +1,50 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SmartTripApp</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <a asp-area="" asp-controller="Home" asp-action="Index"
+               class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
+                SmartTripPlatform
+            </a>
+            <ul class="flex space-x-6">
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Index"
+                       class="text-gray-700 hover:text-blue-600 font-medium transition">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="BookingSearch" asp-action="Index"
+                       class="text-gray-700 hover:text-blue-600 font-medium transition">
+                        Booking
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-grow max-w-6xl mx-auto px-4 py-8">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-gray-100 border-t mt-8">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between text-sm text-gray-600">
+            <span>&copy; 2025 SmartTripApp</span>
+            <a asp-area="" asp-controller="Home" asp-action="Privacy" class="hover:text-blue-600">
+                Privacy
+            </a>
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
