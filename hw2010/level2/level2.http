@@ -1,0 +1,6 @@
+@level2_HostAddress = http://localhost:5195
+
+GET {{level2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

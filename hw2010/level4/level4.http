@@ -1,0 +1,6 @@
+@level4_HostAddress = http://localhost:5020
+
+GET {{level4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
