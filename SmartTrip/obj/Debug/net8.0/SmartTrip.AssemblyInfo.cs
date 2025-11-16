@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartTrip")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14531355cbdb0043d7ea1806c2a6c96ee782bb2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b98da140f7de84a823e192dad9760a9847e3e450")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartTrip")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartTrip")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,601 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ExamLibraryDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ExamLibraryDb/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\loancreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\loancreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\libraryexam\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A82FC46-8DED-479A-AB37-4162D19ADFD4}|LibraryExam.csproj|solutionrelative:models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ExamLibraryDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-16T17:31:58.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoansController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\LoansController.cs*",
+              "RelativeToolTip": "Controllers\\LoansController.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:22:07.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "Controllers\\UsersController.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:22:22.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Data\\AppDbContext.cs*",
+              "RelativeToolTip": "Data\\AppDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:22:47.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Data\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Data\\DataSeeder.cs",
+              "RelativeToolTip": "Data\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:49:14.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\BooksController.cs*",
+              "RelativeToolTip": "Controllers\\BooksController.cs*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:21:40.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:02:13.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:25:39.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:26:27.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:26:13.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.Books [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ExamLibraryDb/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "dbo.Books [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-16T13:50:49.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-16T13:44:16.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:04:54.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Mapping\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Mapping\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Mapping\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:00:28.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\LibraryService.cs",
+              "RelativeDocumentMoniker": "Services\\LibraryService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\LibraryService.cs",
+              "RelativeToolTip": "Services\\LibraryService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:59:16.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ILibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\ILibraryService.cs",
+              "RelativeDocumentMoniker": "Services\\ILibraryService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\ILibraryService.cs",
+              "RelativeToolTip": "Services\\ILibraryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:58:53.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Services\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\IJwtService.cs",
+              "RelativeToolTip": "Services\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:58:02.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:57:44.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LoanRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\LoanRepository.cs",
+              "RelativeToolTip": "Repositories\\LoanRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:52:29.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "Repositories\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:50:56.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ILoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\ILoanRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ILoanRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\ILoanRepository.cs",
+              "RelativeToolTip": "Repositories\\ILoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:51:30.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:52:15.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:51:13.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:52:01.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:51:49.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:50:43.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\AuthResultDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthResultDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\AuthResultDto.cs",
+              "RelativeToolTip": "DTOs\\AuthResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:47:45.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:47:23.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoanCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\LoanCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoanCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\LoanCreateDto.cs",
+              "RelativeToolTip": "DTOs\\LoanCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:46:51.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\UserCreateDto.cs",
+              "RelativeToolTip": "DTOs\\UserCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:46:13.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BookUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\BookUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\BookUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\BookUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:45:26.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\LoanDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoanDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\LoanDto.cs",
+              "RelativeToolTip": "DTOs\\LoanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:25:31.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BookCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\BookCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\BookCreateDto.cs",
+              "RelativeToolTip": "DTOs\\BookCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:44:57.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Models\\Loan.cs",
+              "RelativeDocumentMoniker": "Models\\Loan.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\Models\\Loan.cs",
+              "RelativeToolTip": "Models\\Loan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:26:21.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\BookDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\LibraryExam\\DTOs\\BookDto.cs",
+              "RelativeToolTip": "DTOs\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:25:19.501Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

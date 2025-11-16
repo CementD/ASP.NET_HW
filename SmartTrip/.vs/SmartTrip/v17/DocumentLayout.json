@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\smarttrip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\smarttrip\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\smarttrip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\smarttrip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5DBBCB1-77F5-48B4-9500-F1492A8D3403}|SmartTrip.csproj|c:\\users\\user\\source\\repos\\asp.net_hw\\smarttrip\\viewcomponents\\topdestinationsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,28 +82,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ToursController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\ToursController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ToursController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\ToursController.cs",
-              "RelativeToolTip": "Controllers\\ToursController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T16:44:15.063Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
@@ -117,6 +116,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ToursController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\ToursController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ToursController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\ToursController.cs",
+              "RelativeToolTip": "Controllers\\ToursController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T16:44:15.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DestinationsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\DestinationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DestinationsController.cs",
@@ -129,7 +141,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:29:15.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -142,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -151,19 +176,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T16:42:06.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ASP.NET_HW\\SmartTrip\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T16:29:15.801Z",
               "EditorCaption": ""
             },
             {
@@ -321,18 +333,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T16:38:53.155Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
